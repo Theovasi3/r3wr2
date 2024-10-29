@@ -24,7 +24,7 @@ public class ProductCommandLineRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        String folderPath = "src/main/resources/static/images";
+        String folderPath = "../src/main/resources/static/images";
 
 
         List<ProductNameParser.ParsedProduct> parsedProducts = productParser.parseProductsFromDirectory(folderPath);
